@@ -10,9 +10,24 @@
 		604A15D629CC90E50093E2C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604A15D529CC90E50093E2C0 /* AppDelegate.swift */; };
 		604A15D829CC90E50093E2C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604A15D729CC90E50093E2C0 /* SceneDelegate.swift */; };
 		604A15DA29CC90E50093E2C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604A15D929CC90E50093E2C0 /* ViewController.swift */; };
-		604A15DD29CC90E50093E2C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 604A15DB29CC90E50093E2C0 /* Main.storyboard */; };
 		604A15DF29CC90E60093E2C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 604A15DE29CC90E60093E2C0 /* Assets.xcassets */; };
 		604A15E229CC90E60093E2C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 604A15E029CC90E60093E2C0 /* LaunchScreen.storyboard */; };
+		604A15EB29CC914D0093E2C0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 604A15EA29CC914D0093E2C0 /* SnapKit */; };
+		604A15ED29CC91FF0093E2C0 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604A15EC29CC91FF0093E2C0 /* Profile.swift */; };
+		604A15EF29CCB5150093E2C0 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604A15EE29CCB5150093E2C0 /* ViewModel.swift */; };
+		604A15F129CCBAAE0093E2C0 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604A15F029CCBAAE0093E2C0 /* TableViewController.swift */; };
+		604A15F329CCBD990093E2C0 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604A15F229CCBD980093E2C0 /* ProfileTableViewCell.swift */; };
+		604A15F529CCC6F30093E2C0 /* ViewModel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604A15F429CCC6F30093E2C0 /* ViewModel2.swift */; };
+		604A15F829CD5EAD0093E2C0 /* TableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604A15F729CD5EAD0093E2C0 /* TableViewCellViewModel.swift */; };
+		604A15FA29CD6EA10093E2C0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604A15F929CD6EA10093E2C0 /* DetailViewController.swift */; };
+		604A15FD29CD6FD40093E2C0 /* TableViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604A15FC29CD6FD40093E2C0 /* TableViewModelType.swift */; };
+		604A15FF29CD6FF70093E2C0 /* TableViewCellViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604A15FE29CD6FF70093E2C0 /* TableViewCellViewModelType.swift */; };
+		604A160129CD70110093E2C0 /* DetailViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604A160029CD70110093E2C0 /* DetailViewModelType.swift */; };
+		604A160429CD70D50093E2C0 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604A160329CD70D50093E2C0 /* DetailViewModel.swift */; };
+		604A160629CD9D5F0093E2C0 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604A160529CD9D5F0093E2C0 /* Box.swift */; };
+		604A160B29CDA5AB0093E2C0 /* NetworkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604A160A29CDA5AB0093E2C0 /* NetworkTableViewController.swift */; };
+		604A160D29CDA8300093E2C0 /* NetworkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604A160C29CDA8300093E2C0 /* NetworkViewModel.swift */; };
+		604A160F29CDA90C0093E2C0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604A160E29CDA90C0093E2C0 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +35,24 @@
 		604A15D529CC90E50093E2C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		604A15D729CC90E50093E2C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		604A15D929CC90E50093E2C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		604A15DC29CC90E50093E2C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		604A15DE29CC90E60093E2C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		604A15E129CC90E60093E2C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		604A15E329CC90E60093E2C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		604A15EC29CC91FF0093E2C0 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		604A15EE29CCB5150093E2C0 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		604A15F029CCBAAE0093E2C0 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		604A15F229CCBD980093E2C0 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		604A15F429CCC6F30093E2C0 /* ViewModel2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel2.swift; sourceTree = "<group>"; };
+		604A15F729CD5EAD0093E2C0 /* TableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellViewModel.swift; sourceTree = "<group>"; };
+		604A15F929CD6EA10093E2C0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		604A15FC29CD6FD40093E2C0 /* TableViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModelType.swift; sourceTree = "<group>"; };
+		604A15FE29CD6FF70093E2C0 /* TableViewCellViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellViewModelType.swift; sourceTree = "<group>"; };
+		604A160029CD70110093E2C0 /* DetailViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModelType.swift; sourceTree = "<group>"; };
+		604A160329CD70D50093E2C0 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		604A160529CD9D5F0093E2C0 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		604A160A29CDA5AB0093E2C0 /* NetworkTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTableViewController.swift; sourceTree = "<group>"; };
+		604A160C29CDA8300093E2C0 /* NetworkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkViewModel.swift; sourceTree = "<group>"; };
+		604A160E29CDA90C0093E2C0 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				604A15EB29CC914D0093E2C0 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,12 +89,58 @@
 				604A15D529CC90E50093E2C0 /* AppDelegate.swift */,
 				604A15D729CC90E50093E2C0 /* SceneDelegate.swift */,
 				604A15D929CC90E50093E2C0 /* ViewController.swift */,
-				604A15DB29CC90E50093E2C0 /* Main.storyboard */,
 				604A15DE29CC90E60093E2C0 /* Assets.xcassets */,
 				604A15E029CC90E60093E2C0 /* LaunchScreen.storyboard */,
 				604A15E329CC90E60093E2C0 /* Info.plist */,
+				604A15EC29CC91FF0093E2C0 /* Profile.swift */,
+				604A15EE29CCB5150093E2C0 /* ViewModel.swift */,
+				604A160729CDA5370093E2C0 /* MVVM-NetworkManager */,
+				604A15F629CD5E8F0093E2C0 /* TableView */,
 			);
 			path = MVVM;
+			sourceTree = "<group>";
+		};
+		604A15F629CD5E8F0093E2C0 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				604A160229CD70AA0093E2C0 /* Controller */,
+				604A15FB29CD6FAD0093E2C0 /* ViewModelType */,
+				604A15F429CCC6F30093E2C0 /* ViewModel2.swift */,
+				604A15F729CD5EAD0093E2C0 /* TableViewCellViewModel.swift */,
+				604A160329CD70D50093E2C0 /* DetailViewModel.swift */,
+				604A160529CD9D5F0093E2C0 /* Box.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		604A15FB29CD6FAD0093E2C0 /* ViewModelType */ = {
+			isa = PBXGroup;
+			children = (
+				604A15FC29CD6FD40093E2C0 /* TableViewModelType.swift */,
+				604A15FE29CD6FF70093E2C0 /* TableViewCellViewModelType.swift */,
+				604A160029CD70110093E2C0 /* DetailViewModelType.swift */,
+			);
+			path = ViewModelType;
+			sourceTree = "<group>";
+		};
+		604A160229CD70AA0093E2C0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				604A15F029CCBAAE0093E2C0 /* TableViewController.swift */,
+				604A15F929CD6EA10093E2C0 /* DetailViewController.swift */,
+				604A15F229CCBD980093E2C0 /* ProfileTableViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		604A160729CDA5370093E2C0 /* MVVM-NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				604A160A29CDA5AB0093E2C0 /* NetworkTableViewController.swift */,
+				604A160C29CDA8300093E2C0 /* NetworkViewModel.swift */,
+				604A160E29CDA90C0093E2C0 /* NetworkManager.swift */,
+			);
+			path = "MVVM-NetworkManager";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +159,9 @@
 			dependencies = (
 			);
 			name = MVVM;
+			packageProductDependencies = (
+				604A15EA29CC914D0093E2C0 /* SnapKit */,
+			);
 			productName = MVVM;
 			productReference = 604A15D229CC90E50093E2C0 /* MVVM.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +190,9 @@
 				Base,
 			);
 			mainGroup = 604A15C929CC90E40093E2C0;
+			packageReferences = (
+				604A15E929CC914D0093E2C0 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 604A15D329CC90E50093E2C0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +209,6 @@
 			files = (
 				604A15E229CC90E60093E2C0 /* LaunchScreen.storyboard in Resources */,
 				604A15DF29CC90E60093E2C0 /* Assets.xcassets in Resources */,
-				604A15DD29CC90E50093E2C0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +219,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				604A160F29CDA90C0093E2C0 /* NetworkManager.swift in Sources */,
+				604A160D29CDA8300093E2C0 /* NetworkViewModel.swift in Sources */,
+				604A15EF29CCB5150093E2C0 /* ViewModel.swift in Sources */,
+				604A15FD29CD6FD40093E2C0 /* TableViewModelType.swift in Sources */,
+				604A15F529CCC6F30093E2C0 /* ViewModel2.swift in Sources */,
+				604A15F329CCBD990093E2C0 /* ProfileTableViewCell.swift in Sources */,
+				604A15FF29CD6FF70093E2C0 /* TableViewCellViewModelType.swift in Sources */,
+				604A15F129CCBAAE0093E2C0 /* TableViewController.swift in Sources */,
 				604A15DA29CC90E50093E2C0 /* ViewController.swift in Sources */,
+				604A15ED29CC91FF0093E2C0 /* Profile.swift in Sources */,
+				604A160B29CDA5AB0093E2C0 /* NetworkTableViewController.swift in Sources */,
+				604A15F829CD5EAD0093E2C0 /* TableViewCellViewModel.swift in Sources */,
+				604A160629CD9D5F0093E2C0 /* Box.swift in Sources */,
+				604A160429CD70D50093E2C0 /* DetailViewModel.swift in Sources */,
+				604A160129CD70110093E2C0 /* DetailViewModelType.swift in Sources */,
+				604A15FA29CD6EA10093E2C0 /* DetailViewController.swift in Sources */,
 				604A15D629CC90E50093E2C0 /* AppDelegate.swift in Sources */,
 				604A15D829CC90E50093E2C0 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +243,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		604A15DB29CC90E50093E2C0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				604A15DC29CC90E50093E2C0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		604A15E029CC90E60093E2C0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +380,6 @@
 				INFOPLIST_FILE = MVVM/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +407,6 @@
 				INFOPLIST_FILE = MVVM/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +444,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		604A15E929CC914D0093E2C0 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		604A15EA29CC914D0093E2C0 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 604A15E929CC914D0093E2C0 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 604A15CA29CC90E40093E2C0 /* Project object */;
 }
